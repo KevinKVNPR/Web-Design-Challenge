@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Cloudiness <span class="glyphicon glyphicon-cloud"></span>
+     </title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../bootstrap.min.css" media="screen">
+
+    <link rel="stylesheet" href="../styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Latitude</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="temp.html">Max Temperature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="humidity.html">Humidity</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="wind.html">Wind</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../data.html">Data</a></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../comparison.html">Comparison</a></a>
+                  </li>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="text" placeholder="Search">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </nav>
+    <div class="container">
+      <div class="jumbotron"> 
+        <section class="row">
+            <div class="col-md-8">
+                <article class="description-content">
+                    <h1 class="text-success">Cloudiness</h1>
+                    <img src="../assets/images/Fig3.png" class="images-fluid float" ml3 alt="Latitude vs. Max Temperature" id = "description-image"> 
+                    <p class="clearfix text justify">
+                        There is no strong correlation between latitude and cloudiness. There is an array of cities that have the clearest skies between Latitude 15 and 45. </p>
+                </article>
+            </div>
+
+            <div class = "col-md-4">
+                <section>
+                    <h2 class="title">Visualizations</h2>
+                    <div class="images">
+                        <a href="temp.html"><img src="../assets/images/Fig1.png" style="width:150px;height:150px" alt="Latitude vs. Max Temperature"></a>
+                        <a href="humidity.html"><img src="../assets/images/Fig2.png" style="width:150px;height:150px" alt="Latitude vs. Humidity"></a>
+                        <a href="cloudiness.html"><img src="../assets/images/Fig3.png" style="width:150px;height:150px" alt="Latitude vs. Cloudiness"></a>
+                        <a href="wind.html"><img src="../assets/images/Fig4.png" style="width:150px;height:150px" alt="Latitude vs. Wind Speed"></a>
+                    </div>
+                </section>
+            </div>
+        </section>
+      </div>  
+    </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
